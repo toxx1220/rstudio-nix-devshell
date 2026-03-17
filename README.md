@@ -20,3 +20,11 @@ Run `direnv reload` or `nix develop`
 
 # Update R
 run `nix flake update` and reload the shell
+
+# Learn R
+The shell installs [swirl](https://swirlstats.com/), run it in either shell with:
+
+```r
+library("swirl")
+swirl()
+```

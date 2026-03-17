@@ -19,7 +19,7 @@
         pkgs = import nixpkgs { inherit system; };
 
         rpkgs = with pkgs.rPackages; [
-          ggplot2
+          swirl # Tool to learn R: https://swirlstats.com/
           # Packages can be found under 'rPackages.*'
           # e.g., rmarkdown, knitr, etc.
         ];
